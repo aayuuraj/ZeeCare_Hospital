@@ -30,7 +30,12 @@ const { default: appointmentRouter } = await import("./router/appointmentRouter.
 // CORS -- Cross-Origin Resource Sharing.
 
 app.use(cors({
-    origin: [process.env.FRONTEND_URL, process.env.DASHBOARD_URL],
+    origin: [
+        process.env.FRONTEND_URL, 
+        process.env.DASHBOARD_URL,
+        "https://zee-care-hospital-pi.vercel.app",
+        "https://zee-care-hospital-kdxh.vercel.app"
+    ],
     methods: ["GET", "POST", "PUT", "DELETE"],
     credentials: true, // credential can also be sent as reqs
 }));
