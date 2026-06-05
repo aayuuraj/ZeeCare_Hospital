@@ -15,7 +15,7 @@ function initSequelize() {
       logging: false,
       dialectOptions: {
         ssl: {
-          rejectUnauthorized: true,
+          rejectUnauthorized: false,
         },
       },
     });
