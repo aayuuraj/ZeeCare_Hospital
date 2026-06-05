@@ -1,4 +1,4 @@
-# SERN Stack Hospital Management System
+# ZeeCare Hospital Management System
 
 A comprehensive web-based Hospital Management System built using the SERN stack (SQL, Express.js, React.js, Node.js) that streamlines hospital operations and enhances patient care through modern technology solutions.
 
