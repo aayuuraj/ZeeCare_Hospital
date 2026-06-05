@@ -105,8 +105,8 @@ export const logoutAdmin = catchAsyncErrors(async (req, res, next) => {
     res.status(200).cookie("adminToken", "", {
         httpOnly: true,
         expires: new Date(0), // More robust for cookie removal
-        sameSite: "strict", // Include if used when setting the cookie
-        secure: process.env.NODE_ENV === "production", // Include if used when setting the cookie
+        sameSite: "None", 
+        secure: true,
         path: "/", // Include if used when setting the cookie
     }).json({
         success: true,
@@ -119,8 +119,8 @@ export const logoutPatient = catchAsyncErrors(async (req, res, next) => {
     res.status(200).cookie("patientToken", "", {
         httpOnly: true,
         expires: new Date(0), // More robust for cookie removal
-        sameSite: "strict", // Include if used when setting the cookie
-        secure: process.env.NODE_ENV === "production", // Include if used when setting the cookie
+        sameSite: "None", 
+        secure: true,
         path: "/", // Include if used when setting the cookie
     }).json({
         success: true,
