@@ -2,6 +2,11 @@
 
 A comprehensive web-based Hospital Management System built using the SERN stack (SQL, Express.js, React.js, Node.js) that streamlines hospital operations and enhances patient care through modern technology solutions.
 
+## 🌐 Live Links
+
+- **Patient Portal (Frontend):** [https://zee-care-hospital-pi.vercel.app/](https://zee-care-hospital-pi.vercel.app/)
+- **Admin Dashboard:** [https://zee-care-hospital-kdxh.vercel.app/](https://zee-care-hospital-kdxh.vercel.app/)
+
 ## 📋 Table of Contents
 
 - [Features](#features)
